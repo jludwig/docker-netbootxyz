@@ -2,7 +2,7 @@
 
 TFTP_ARGS=""
 
-if [ "$TFTP_SINGLE_PORT" == "1" ] || [ "$TFTP_SINGLE_PORT" == "true" ]
+if [ "$TFTP_SINGLE_PORT" == "true" ]
 then
     TFTP_ARGS="--tftp-single-port"
 else
